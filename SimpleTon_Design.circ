@@ -1324,7 +1324,8 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <comp lib="5" loc="(900,120)" name="Hex Digit Display"/>
     <comp lib="0" loc="(270,470)" name="Pin">
       <a name="tristate" val="false"/>
-      <a name="label" val="EwtC"/>
+      <a name="label" val="(1) EwtC"/>
+      <a name="labelloc" val="south"/>
     </comp>
     <comp lib="2" loc="(280,730)" name="Multiplexer">
       <a name="width" val="8"/>
