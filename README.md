@@ -4,5 +4,7 @@
 - Made with logism.
 - Here you will find full explanation on how this works.
 ---
-The following is an image that shows the CPU without the memory:
-![](https://github.com/longchickenlegs/SimpleTon/blob/master/README_pictures/Capture_Annotated.png)
+The following is an image of the CPU design with designated sections:
+![SimpleTon CPU](https://github.com/longchickenlegs/SimpleTon/blob/master/README_pictures/Capture_Annotated.png)
+
+yes
