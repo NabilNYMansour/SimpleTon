@@ -5,4 +5,4 @@
 - Here you will find full explanation on how this works.
 ---
 The following is an image that shows the CPU without the memory:
-![](/noMemory.png)
+![](SimpleTon/noMemory.png)
