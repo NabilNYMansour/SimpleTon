@@ -56,15 +56,19 @@ Consists of a register used to represent the current position of the pointer in 
 #### Section 6: The Memory Command set.
 This section has the memory (RAM or ROM) where the code will need to be. It takes the value of %MC as its select bit. Also, there is a CommandLine sender that simply has decoder since the code within the memory is only **16 bits**.
 The CommandLine sender takes inputs **A B C O(2b) V r(2B) VALUE(8b)** from the memory and outputs the values in the specific order shown below:
-|** A **|** B **|** C **| With the decoder
-| 0 | 0 | 0 | => (13)
-| 0 | 0 | 1 | => (12)
-| 0 | 1 | 0 | => (7)
-| 0 | 1 | 1 | => (3)
-| 1 | 0 | 0 | => (8)
-| 1 | 0 | 1 | => (6)
-| 1 | 1 | 0 | => (4)
-| 1 | 1 | 1 | => (9)
+
+|  A | B  | C  | With the decoder |
+| :------------: | :------------: | :------------: | :------------: |
+| 0  |0   |0   | => (13)  |
+| 0  |0   |1   | => (12)  |
+| 0  |1   |0   | => (7)  |
+| 0  |1   |1   | => (3)  |
+| 1  |0   |0   | => (8)  |  
+| 1  |0   |1   | => (6)  |
+| 1  |1   |0   | => (4)  |
+| 1  |1   |1   | => (9)  |
+
+
 So the output would be as follows:
 **13, 12, 7, 3, 8, 6, 4, 9, OPER, VSELECT, RSELECT, VALUE**
 Such that it corrosponds to the machine code:
